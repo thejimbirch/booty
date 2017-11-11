@@ -1,0 +1,136 @@
+/**
+ * Place your custom styles here.
+ */
+
+/* Typography */
+@import url('https://fonts.googleapis.com/css?family=Muli:300,800');
+
+body {
+  font-family: 'Muli', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 0;
+}
+
+b,
+strong,
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-weight: 800;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4 {
+  letter-spacing: -1px;
+}
+
+/* Removes rounded corners and sets full width. */
+header.container.navbar {
+  border-radius: 0;
+  max-width: 100%;
+  width: 100%;
+}
+
+/* Remove padding on home page since it has hero. */
+.front .navbar {
+  margin-bottom: 0;
+}
+
+/* Sets height on site image. */
+.logo img {
+  height: 32px;
+  width: auto;
+}
+
+/* Adds full width, margin-less and padding-less container for Paragraphs. */
+/* This is so colors go full width.  Padding is on interior elements. */
+/* Region is added in THEMENAME.info.yml */
+.structured-content.container {
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+}
+
+.structured-content.container > .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.structured-content.container > .row > .col-sm-12 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Color Examples Page */
+.color-examples > div > div {
+  font-size: 12px;
+  padding: 20px 10px;
+}
+
+/* All Pages View */
+.all-pages {
+  list-style: none;
+}
+
+.all-pages > li {
+  float: left;
+  position: relative;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  .all-pages > li {
+    width: 50%;
+  }
+}
+
+@media (min-width: 992px) {
+  .all-pages > li {
+    width: 33.33333333%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .all-pages > li {
+    width: 25%;
+  }
+}
+
+.all-pages > li .panel {
+  border: 0;
+  box-shadow: 0;
+}
+
+.all-pages > li .panel-heading {
+  padding: 0;
+}
+
+/* Card Styling */
+.card .card-img-top img {
+  border-radius: 4px 4px 0 0;
+}
+
+.card {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+@media (max-width: 569px) {
+  .paragraph--type--xeno-hero__image {
+    display: none;
+  }
+}
+
+
