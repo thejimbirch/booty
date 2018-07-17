@@ -1,4 +1,4 @@
-# Booty
+# Booty :bank: :moneybag: :yen: :dollar: :pound: :trophy: :euro: :credit_card: :money_with_wings: :crown: :gift:
 
 Basic Drupal 8 Child theme of the Bootstrap contrib Drupal 8 theme.
 
