@@ -1,8 +1,8 @@
+name: 'Booty'
 core: 8.x
+core_version_requirement: ^8 || ^9
 type: theme
 base theme: bootstrap
-
-name: 'Booty'
 description: 'Basic Drupal 8 Child theme of the Bootstrap contrib Drupal 8 theme.  Uses the jsDelivr CDN for all CSS and JavaScript. No source files or compiling is necessary and is recommended for simple sites or beginners.'
 package: 'Bootstrap'
 
